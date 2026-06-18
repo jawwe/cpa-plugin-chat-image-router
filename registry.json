@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "cpa-plugin-chat-image-router",
+      "name": "CPA Chat Image Router",
+      "description": "Routes selected OpenAI chat completion image models into CLIProxyAPI image generation and edit execution.",
+      "author": "jawwe",
+      "version": "0.1.0",
+      "repository": "https://github.com/jawwe/cpa-plugin-chat-image-router",
+      "homepage": "https://github.com/jawwe/cpa-plugin-chat-image-router",
+      "license": "MIT",
+      "tags": ["cliproxyapi", "plugin", "image", "openai"]
+    }
+  ]
+}

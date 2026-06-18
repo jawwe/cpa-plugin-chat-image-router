@@ -50,6 +50,24 @@ plugins:
 
 After starting CLIProxyAPI, check `GET /v0/management/plugins` and confirm this plugin has `registered: true` and `effective_enabled: true`.
 
+## Plugin Store
+
+Add this registry URL to `plugins.store-sources`:
+
+```text
+https://raw.githubusercontent.com/jawwe/cpa-plugin-chat-image-router/main/registry.json
+```
+
+```yaml
+plugins:
+  enabled: true
+  dir: "plugins"
+  store-sources:
+    - "https://raw.githubusercontent.com/jawwe/cpa-plugin-chat-image-router/main/registry.json"
+```
+
+Then open the CLIProxyAPI plugin store or call `GET /v0/management/plugin-store`.
+
 ## Development
 
 ```bash
